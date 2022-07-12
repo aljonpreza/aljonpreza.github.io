@@ -476,11 +476,6 @@ p.large-text {
         justify-self: center;
         z-index: -1;
         text-align: center;
-
-        svg {
-            padding: $padding;
-            height: 100%;
-        }
     
         @media (max-width: $tablet-size) {
             grid-column: 1;
