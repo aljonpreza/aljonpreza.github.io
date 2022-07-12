@@ -774,7 +774,7 @@ section.work-section {
     }
 
     @media (max-width: $tablet-size) {
-        grid-template-columns: repeat(1, minmax(360px, 1fr));
+        grid-template-columns: repeat(1, minmax(360px-2em, 1fr));
         grid-column: 1;
         row-gap: $row-gap;
     }
