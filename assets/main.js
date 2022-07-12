@@ -20,13 +20,10 @@ $(document).ready(function () {
             $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
         }).scroll();
     });
-});
 
-
-$(document).ready(function () {
     const swiper = new Swiper('.swiper', {
         // Optional parameters
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 32,
         breakpoints: {
             1024: {
