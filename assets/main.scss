@@ -1,7 +1,7 @@
 ---
 ---
 @import "minima";
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
 
 $primary-color: #97d700;
 $secondary-color: #97d700;
@@ -282,7 +282,6 @@ section, section.hero {
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 50vh;
         grid-row: 1;
         grid-column: 1 / 7;
 
@@ -296,7 +295,7 @@ section, section.hero {
     }
 
     @media (max-width: $tablet-size) {
-        min-height: 50vh;
+        min-height: 40vh;
     }
 }
 
@@ -419,6 +418,7 @@ p.large-text {
     a.site-title, &:visited {
         color: #ffffff;
         justify-self: left;
+        text-transform: uppercase;
         font-family: $heading-font;
         font-size: 1.15rem;
         font-weight: 900;
@@ -485,7 +485,6 @@ p.large-text {
         @media (max-width: $tablet-size) {
             grid-column: 1;
             grid-row: 1;
-            height: 25vh;
         }
     }
 
