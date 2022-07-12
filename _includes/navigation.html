@@ -1,0 +1,10 @@
+<header class="site-header" role="banner">
+    <div class="nav-container">
+        <a class="site-title" rel="author" href="/">Aljon Preza</a>
+        <nav>
+            {% for item in site.data.navigation %}
+            <a class="page-link {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
+            {% endfor %}
+        </nav>
+    </div>
+</header>

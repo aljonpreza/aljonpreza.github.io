@@ -1,0 +1,93 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+    <title>{{ page.title }}</title>
+    <meta name="generator" content="Jekyll v4.2.0" />
+    <meta property="og:title" content="{{ site.name }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description"
+        content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+    <meta property="og:description"
+        content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+    <link rel="canonical" href="/" />
+    <meta property="og:url" content="/" />
+    <meta property="og:site_name" content="Aljon Preza" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Aljon Preza" />
+    <script type="application/ld+json">
+        {
+            "headline": "Aljon Preza",
+            "description": "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.",
+            "url": "/",
+            "name": "Aljon Preza",
+            "@type": "WebSite",
+            "@context": "https://schema.org"
+        }
+    </script>
+    <!-- End Jekyll SEO tag -->
+    <link rel="stylesheet" href="/assets/main.css">
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Aljon Preza" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="/assets/main.js"></script>
+
+</head>
+
+<body class="post-page {{ page.title | replace: ' ', '-' | remove: ',' | downcase }}">
+    {% include navigation.html %}
+    <main class="page-content post-page" aria-label="Content">
+        <section class="hero">
+            <div class="work-description">
+                <h1 class="page-title">{{ page.title }}</h1>
+                <span class="h2 subtitle">{{ page.description }}</span>
+                <div class="work-info">
+                    <div class="client">
+                        <span class="subheading">Client</span>
+                        {{ page.title }}
+                    </div>
+                    <div class="date">
+                        <span class="subheading">Year</span>
+                        {{ page.date | date: '%Y' }}
+                    </div>
+                    <div class="categories">
+                        <span class="subheading">Role</span>
+                        {% for category in page.categories %}
+                            <span class="tag">{{ category }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-blur"></div>
+            <div class="header-image {{ page.title| replace: ' ', '-' | remove: ',' | downcase }}"></div>
+        </section>
+        
+        {{ content | remove: '<p>' | remove: '</p>' }}
+
+        <div class="post-navigation">
+            <div {% if page.previous.url %} class="prev --animated" {% endif %}>
+                {% if page.previous.url %}
+                <span class="subheading">Previous</span>
+                <div class="h3 title">{{page.previous.title}}</div>
+                <a class="secondary-button" href="{{page.previous.url}}">Explore</a>
+                {% endif %}
+            </div>
+            <div {% if page.next.url %} class="next --animated" {% endif %}>
+                {% if page.next.url %}
+                <span class="subheading">Next</span>
+                <div class="h3 title">{{page.next.title}}</div>
+                <a class="secondary-button" href="{{page.next.url}}">Explore</a>
+                {% endif %}
+            </div>
+        </div>
+
+        {% include footer.html %}
+    </main>
+</body>
+
+</html>
