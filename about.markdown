@@ -125,7 +125,7 @@ permalink: /about/
                         <span class="subheading">Holliday Orthodontics</span>
                         <span class="subheading">2017 - Now</span>
                     </div>
-                    <h3>Web Manager</h3>
+                    <h3>Web Project Manager</h3>
                     <ul>
                         <li>Designed and developed the front-end for 10+ WordPress websites.</li>
                         <li>Managed both UI/UX design and development stages for clients.</li>
