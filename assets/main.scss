@@ -413,7 +413,7 @@ p.large-text {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: $column-gap;
-    padding: $padding;
+    padding: 1.5em $padding;
     align-items: center;
 
     a.site-title, &:visited {
