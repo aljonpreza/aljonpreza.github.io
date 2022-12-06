@@ -9,7 +9,9 @@ thumbnail: "/assets/images/orthomasterclass/preview-img-orthomasterclass.jpg"
 
 <section class="post-single">
     <img class="--animated" alt="OrthoMasterClass - Landing Page" src="/assets/images/orthomasterclass/orthomasterclass-landing-page.jpg">
-    <img class="--animated" alt="OrthoMasterClass - Landing Page" src="/assets/images/orthomasterclass/orthomasterclass-landing-page-1.jpg"><img class="--animated" alt="OrthoMasterClass - Landing Page" src="/assets/images/orthomasterclass/orthomasterclass-landing-page-2.jpg">
+    <img class="--animated" alt="OrthoMasterClass - Landing Page" src="/assets/images/orthomasterclass/orthomasterclass-landing-page-1.jpg">
+    <img class="--animated" alt="OrthoMasterClass - Landing Page" src="/assets/images/orthomasterclass/orthomasterclass-landing-page-2.jpg">
+    <img class="--animated" alt="OrthoMasterClass - Email Campaigns" src="/assets/images/orthomasterclass/orthomasterclass-email-campaigns.jpg">
 </section>
 
 <section class="post-quad">
