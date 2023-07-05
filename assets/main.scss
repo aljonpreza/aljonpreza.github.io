@@ -1010,6 +1010,10 @@ footer.site-footer {
             nav {
                 display: flex;
                 gap: $gap;
+
+                @media (max-width: $tablet-size) {
+                    flex-direction: column;
+                }
             }
 
             @media (max-width: $tablet-size) {
