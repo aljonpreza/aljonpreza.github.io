@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} - Aljon Preza</title>
     <meta name="generator" content="Jekyll v4.2.0" />
     <meta property="og:title" content="{{ site.name }}" />
     <meta property="og:locale" content="en_US" />
@@ -32,62 +32,156 @@
         }
     </script>
     <!-- End Jekyll SEO tag -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
     <link rel="stylesheet" href="/assets/main.css">
     <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Aljon Preza" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a30604e698.js" crossorigin="anonymous"></script>
+    <script src="/assets/mode-switcher.js"></script>
     <script src="/assets/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 </head>
-
 <body class="post-page {{ page.title | replace: ' ', '-' | remove: ',' | downcase }}">
     {% include navigation.html %}
     <main class="page-content post-page" aria-label="Content">
         <section class="hero">
-            <div class="work-description">
-                <h1 class="page-title">{{ page.title }}</h1>
-                <span class="h2 subtitle">{{ page.description }}</span>
-                <div class="work-info">
-                    <div class="client">
-                        <span class="subheading">Client</span>
-                        {{ page.title }}
+            <div class="container">
+                <div class="page-title">
+                    <span class="subheading">{{ page.title }}</span>
+                    <h1 class="title display">{{ page.description }}.</h1>
+                </div>
+                <img class="thumbnail" src="{{ page.thumbnail }}">
+            </div>
+        </section>
+        <section class="post-info">
+            <div class="row">
+                <div class="col title">
+                    <div class="section-title">
+                        <span class="subheading">About</span>
+                        <h2 class="title">{{ page.heading }}</h2>
                     </div>
-                    <div class="date">
-                        <span class="subheading">Year</span>
-                        {{ page.date | date: '%Y' }}
-                    </div>
-                    <div class="categories">
-                        <span class="subheading">Role</span>
-                        {% for category in page.categories %}
-                            <span class="tag">{{ category }}</span>
-                        {% endfor %}
+                </div>
+                <div class="col lg-width">
+                    <p class="large-text">{{ page.about | newline_to_br }}</p>
+                    <hr class="divider">
+                    <div class="list">
+                        <div class="list-item">
+                            <span class="list-title">Year</span>
+                            <span class="large-text">{{ page.date | date: '%Y' }}</span>
+                        </div>
+                        <div class="list-item">
+                            <span class="list-title">Deliverables</span>
+                            <ul class="list-content large-text">
+                                {% for deliverable in page.deliverables %}
+                                    <li>{{ deliverable }}</li>
+                                {% endfor %} 
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <span class="list-title">Tools</span>
+                            <ul class="list-content large-text">
+                                {% for tool in page.tools %}
+                                    <li>{{ tool }}</li>
+                                {% endfor %} 
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="backdrop-blur"></div>
-            <div class="header-image {{ page.title| replace: ' ', '-' | remove: ',' | downcase }}"></div>
         </section>
-        
-        {{ content | remove: '<p>' | remove: '</p>' }}
-
-        <div class="post-navigation">
-            <div {% if page.previous.url %} class="prev --animated" {% endif %}>
-                {% if page.previous.url %}
-                <span class="subheading">Previous</span>
-                <div class="h3 title">{{page.previous.title}}</div>
-                <a class="secondary-button" href="{{page.previous.url}}">Explore</a>
-                {% endif %}
+        <section class="post-content">
+            <div class="row">
+                {{ content | remove: '<p>' | remove: '</p>' }}
             </div>
-            <div {% if page.next.url %} class="next --animated" {% endif %}>
-                {% if page.next.url %}
-                <span class="subheading">Next</span>
-                <div class="h3 title">{{page.next.title}}</div>
-                <a class="secondary-button" href="{{page.next.url}}">Explore</a>
-                {% endif %}
+        </section>
+        <section class="post-navigation">
+            <div class="row">
+                <div class="col">
+                    {% if page.previous.url %}
+                        <div class="image card {{ page.previous.title | replace: ' ', '-' | remove: ',' | downcase }}">
+                            <hr class="divider">
+                            <div class="content">
+                                <div class="card-title">
+                                    <span class="subheading">Previous</span>
+                                    <span class="title h4">{{ page.previous.description }}.</span>
+                                </div>
+                                <div class="card-button">
+                                    <a class="hidden" href="{{ page.previous.url  }}">
+                                        <!-- <span class="material-symbols-outlined icon">arrow_forward</span> -->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="image-wrapper">
+                                <img class="thumbnail" src="{{ page.previous.thumbnail }}">
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="image card {{ site.posts.first.title | replace: ' ', '-' | remove: ',' | downcase }}">
+                            <hr class="divider">
+                            <div class="content">
+                                <div class="card-title">
+                                    <span class="subheading">Previous</span>
+                                    <span class="title h4">{{ site.posts.first.description }}.</span>
+                                </div>
+                                <div class="card-button">
+                                    <a class="hidden" href="{{ site.posts.first.url }}">
+                                        <!-- <span class="material-symbols-outlined icon">arrow_forward</span> -->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="image-wrapper">
+                                <img class="thumbnail" src="{{ site.posts.first.thumbnail }}">
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="col">
+                    {% if page.next.url %}
+                        <div class="image card {{ page.next.title | replace: ' ', '-' | remove: ',' | downcase }}">
+                            <hr class="divider">
+                            <div class="content">
+                                <div class="card-title">
+                                    <span class="subheading">Next</span>
+                                    <span class="title h4">{{ page.next.description }}.</span>
+                                </div>
+                                <div class="card-button">
+                                    <a class="hidden" href="{{ page.next.url }}">
+                                        <!-- <span class="material-symbols-outlined icon">arrow_forward</span> -->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="image-wrapper">
+                                <img class="thumbnail" src="{{ page.next.thumbnail }}">
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="image card {{ site.posts.last.title | replace: ' ', '-' | remove: ',' | downcase }}">
+                            <hr class="divider">
+                            <div class="content">
+                                <div class="card-title">
+                                    <span class="subheading">Next</span>
+                                    <span class="title h4">{{ site.posts.last.description }}.</span>
+                                </div>
+                                <div class="card-button">
+                                    <a class="hidden" href="{{ site.posts.last.url }}">
+                                        <!--<span class="material-symbols-outlined icon">arrow_forward</span>-->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="image-wrapper">
+                                <img class="thumbnail" src="{{ site.posts.last.thumbnail }}">
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
             </div>
-        </div>
-
+        </section>
+        <!-- Footer -->
         {% include footer.html %}
     </main>
+    <script src="/assets/active-submenu.js"></script>
 </body>
 
 </html>

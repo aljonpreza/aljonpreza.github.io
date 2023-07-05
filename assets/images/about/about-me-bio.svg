@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fb5222;
+      }
+
+      .cls-3 {
+        fill: #fad937;
+      }
+
+      .cls-4 {
+        fill: #010101;
+      }
+
+      .cls-5 {
+        fill: #fcc5d5;
+      }
+
+      .cls-6 {
+        fill: #1c6ae4;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-5" points="220 240 200 240 200 280 240 280 240 260 240 240 220 240"/>
+  <polygon class="cls-6" points="80 0 80 40 40 40 80 0"/>
+  <polygon class="cls-6" points="40 80 40 120 0 80 40 80"/>
+  <polygon class="cls-4" points="120 40 80 40 80 0 120 40"/>
+  <polygon class="cls-4" points="40 40 40 80 0 80 40 40"/>
+  <polygon class="cls-6" points="240 0 240 40 200 40 240 0"/>
+  <polygon class="cls-4" points="280 40 240 40 240 0 280 40"/>
+  <polygon class="cls-6" points="400 0 400 40 360 40 400 0"/>
+  <polygon class="cls-6" points="480 80 440 80 440 40 480 80"/>
+  <polygon class="cls-4" points="440 40 400 40 400 0 440 40"/>
+  <polygon class="cls-4" points="480 80 440 120 440 80 480 80"/>
+  <polygon class="cls-6" points="40 240 40 280 0 240 40 240"/>
+  <polygon class="cls-4" points="40 200 40 240 0 240 40 200"/>
+  <rect class="cls-1" x="220" y="240" width="20" height="20"/>
+  <rect class="cls-1" x="240" y="220" width="20" height="20"/>
+  <polygon class="cls-6" points="480 240 440 240 440 200 480 240"/>
+  <polygon class="cls-4" points="480 240 440 280 440 240 480 240"/>
+  <polygon class="cls-6" points="120 440 80 480 80 440 120 440"/>
+  <polygon class="cls-6" points="40 400 40 440 0 400 40 400"/>
+  <polygon class="cls-4" points="80 440 80 480 40 440 80 440"/>
+  <polygon class="cls-4" points="40 360 40 400 0 400 40 360"/>
+  <polygon class="cls-6" points="280 440 240 480 240 440 280 440"/>
+  <polygon class="cls-4" points="240 440 240 480 200 440 240 440"/>
+  <polygon class="cls-6" points="480 400 440 400 440 360 480 400"/>
+  <polygon class="cls-6" points="440 440 400 480 400 440 440 440"/>
+  <polygon class="cls-4" points="480 400 440 440 440 400 480 400"/>
+  <polygon class="cls-4" points="400 440 400 480 360 440 400 440"/>
+  <rect class="cls-1" x="263.43" y="103.43" width="113.14" height="113.14" transform="translate(-19.41 273.14) rotate(-45)"/>
+  <rect class="cls-1" x="103.43" y="263.43" width="113.14" height="113.14" transform="translate(-179.41 206.86) rotate(-45)"/>
+  <rect class="cls-1" x="103.43" y="103.43" width="113.14" height="113.14" transform="translate(-66.27 160) rotate(-45)"/>
+  <rect class="cls-1" x="220" y="240" width="20" height="20"/>
+  <rect class="cls-1" x="240" y="220" width="20" height="20"/>
+  <rect class="cls-1" x="263.43" y="263.43" width="113.14" height="113.14" transform="translate(-132.55 320) rotate(-45)"/>
+  <polygon class="cls-3" points="160 80 80 80 80 40 120 40 160 80"/>
+  <polygon class="cls-3" points="320 80 240 80 240 40 280 40 320 80"/>
+  <polygon class="cls-3" points="440 80 440 120 400 160 400 80 440 80"/>
+  <polygon class="cls-3" points="440 240 440 280 400 320 400 240 440 240"/>
+  <polygon class="cls-3" points="400 400 400 440 360 440 320 400 400 400"/>
+  <polygon class="cls-3" points="240 400 240 440 200 440 160 400 240 400"/>
+  <polygon class="cls-3" points="80 320 80 400 40 400 40 360 80 320"/>
+  <polygon class="cls-3" points="80 160 80 240 40 240 40 200 80 160"/>
+  <polygon class="cls-5" points="240 40 240 80 160 80 200 40 240 40"/>
+  <polygon class="cls-5" points="400 40 400 80 320 80 360 40 400 40"/>
+  <polygon class="cls-5" points="440 200 440 240 400 240 400 160 440 200"/>
+  <polygon class="cls-5" points="440 360 440 400 400 400 400 320 440 360"/>
+  <polygon class="cls-5" points="320 400 280 440 240 440 240 400 320 400"/>
+  <polygon class="cls-5" points="160 400 120 440 80 440 80 400 160 400"/>
+  <polygon class="cls-5" points="80 240 80 320 40 280 40 240 80 240"/>
+  <polygon class="cls-5" points="80 80 80 160 40 120 40 80 80 80"/>
+  <polygon class="cls-6" points="160 80 80 160 80 80 160 80"/>
+  <polygon class="cls-6" points="400 80 400 160 320 80 400 80"/>
+  <polygon class="cls-6" points="400 320 400 400 320 400 400 320"/>
+  <polygon class="cls-6" points="160 400 80 400 80 320 160 400"/>
+  <polygon class="cls-4" points="240 80 240 120 200 120 160 80 240 80"/>
+  <polygon class="cls-4" points="400 160 400 240 360 240 360 200 400 160"/>
+  <polygon class="cls-4" points="320 400 240 400 240 360 280 360 320 400"/>
+  <polygon class="cls-4" points="120 240 120 280 80 320 80 240 120 240"/>
+  <polygon class="cls-2" points="320 80 280 120 240 120 240 80 320 80"/>
+  <polygon class="cls-2" points="400 240 400 320 360 280 360 240 400 240"/>
+  <polygon class="cls-2" points="240 360 240 400 160 400 200 360 240 360"/>
+  <polygon class="cls-2" points="120 200 120 240 80 240 80 160 120 200"/>
+  <rect class="cls-1" x="263.43" y="103.43" width="113.14" height="113.14" transform="translate(-19.41 273.14) rotate(-45)"/>
+  <rect class="cls-1" x="103.43" y="263.43" width="113.14" height="113.14" transform="translate(-179.41 206.86) rotate(-45)"/>
+  <rect class="cls-1" x="103.43" y="103.43" width="113.14" height="113.14" transform="translate(-66.27 160) rotate(-45)"/>
+  <rect class="cls-1" x="220" y="240" width="20" height="20"/>
+  <rect class="cls-1" x="240" y="220" width="20" height="20"/>
+  <rect class="cls-1" x="263.43" y="263.43" width="113.14" height="113.14" transform="translate(-132.55 320) rotate(-45)"/>
+  <polygon class="cls-5" points="280 120 240 160 240 120 280 120"/>
+  <polygon class="cls-5" points="360 240 360 280 320 240 360 240"/>
+  <polygon class="cls-5" points="240 320 240 360 200 360 240 320"/>
+  <polygon class="cls-5" points="160 240 120 240 120 200 160 240"/>
+  <polygon class="cls-3" points="240 120 240 160 200 120 240 120"/>
+  <polygon class="cls-3" points="360 200 360 240 320 240 360 200"/>
+  <polygon class="cls-3" points="280 360 240 360 240 320 280 360"/>
+  <polygon class="cls-3" points="160 240 120 280 120 240 160 240"/>
+  <rect class="cls-1" x="240" y="220" width="20" height="20"/>
+  <polygon class="cls-4" points="240 160 240 200 200 200 240 160"/>
+  <polygon class="cls-4" points="320 240 280 240 280 200 320 240"/>
+  <polygon class="cls-4" points="280 280 240 320 240 280 280 280"/>
+  <polygon class="cls-4" points="200 240 200 280 160 240 200 240"/>
+  <polygon class="cls-6" points="280 200 240 200 240 160 280 200"/>
+  <polygon class="cls-6" points="320 240 280 280 280 240 320 240"/>
+  <polygon class="cls-6" points="240 280 240 320 200 280 240 280"/>
+  <polygon class="cls-6" points="200 200 200 240 160 240 200 200"/>
+  <rect class="cls-2" x="40" y="40" width="40" height="40"/>
+  <rect class="cls-2" x="400" y="40" width="40" height="40"/>
+  <rect class="cls-2" x="400" y="400" width="40" height="40"/>
+  <rect class="cls-2" x="40" y="400" width="40" height="40"/>
+  <polygon class="cls-3" points="200 200 200 240 220 240 240 240 240 220 240 200 200 200"/>
+  <polygon class="cls-3" points="260 240 240 240 240 260 240 280 280 280 280 240 260 240"/>
+  <polygon class="cls-5" points="240 200 240 220 240 240 260 240 280 240 280 200 240 200"/>
+</svg>

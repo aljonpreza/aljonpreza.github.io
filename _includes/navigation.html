@@ -5,6 +5,9 @@
             {% for item in site.data.navigation %}
             <a class="page-link {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
             {% endfor %}
+            <a href="mailto:aljonpreza@gmail.com">Contact</a>
+            <a id="theme-toggle" onclick="modeSwitcher()"></a>
         </nav>
     </div>
+    <hr>
 </header>
