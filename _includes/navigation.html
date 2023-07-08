@@ -1,7 +1,10 @@
 <header class="site-header" role="banner">
     <div class="nav-container">
-        <a class="site-title" rel="author" href="/">Aljon Preza</a>
-        <nav>
+        <div class="nav-top">
+            <a class="site-title" rel="author" href="/">Aljon Preza</a>
+            <a id="togglemenu" onclick="document.body.classList.toggle('menuopen');"><span><span></span><span></span><span></span></span></a>
+        </div>
+        <nav id="menu">
             {% for item in site.data.navigation %}
             <a class="page-link {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
             {% endfor %}
