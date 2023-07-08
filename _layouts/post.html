@@ -99,51 +99,12 @@
         <section class="post-navigation">
             <div class="row">
                 <div class="col">
-                    {% if page.previous.url %}
-                        <div class="image card {{ page.previous.title | replace: ' ', '-' | remove: ',' | downcase }}">
-                            <hr class="divider">
-                            <div class="content">
-                                <div class="card-title">
-                                    <span class="subheading">Previous</span>
-                                    <span class="title h4">{{ page.previous.description }}.</span>
-                                </div>
-                                <div class="card-button">
-                                    <a class="hidden" href="{{ page.previous.url  }}">
-                                        <!-- <span class="material-symbols-outlined icon">arrow_forward</span> -->
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="image-wrapper">
-                                <img class="thumbnail" src="{{ page.previous.thumbnail }}">
-                            </div>
-                        </div>
-                    {% else %}
-                        <div class="image card {{ site.posts.first.title | replace: ' ', '-' | remove: ',' | downcase }}">
-                            <hr class="divider">
-                            <div class="content">
-                                <div class="card-title">
-                                    <span class="subheading">Previous</span>
-                                    <span class="title h4">{{ site.posts.first.description }}.</span>
-                                </div>
-                                <div class="card-button">
-                                    <a class="hidden" href="{{ site.posts.first.url }}">
-                                        <!-- <span class="material-symbols-outlined icon">arrow_forward</span> -->
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="image-wrapper">
-                                <img class="thumbnail" src="{{ site.posts.first.thumbnail }}">
-                            </div>
-                        </div>
-                    {% endif %}
-                </div>
-                <div class="col">
                     {% if page.next.url %}
                         <div class="image card {{ page.next.title | replace: ' ', '-' | remove: ',' | downcase }}">
                             <hr class="divider">
                             <div class="content">
                                 <div class="card-title">
-                                    <span class="subheading">Next</span>
+                                    <span class="subheading">Previous</span>
                                     <span class="title h4">{{ page.next.description }}.</span>
                                 </div>
                                 <div class="card-button">
@@ -161,7 +122,7 @@
                             <hr class="divider">
                             <div class="content">
                                 <div class="card-title">
-                                    <span class="subheading">Next</span>
+                                    <span class="subheading">Previous</span>
                                     <span class="title h4">{{ site.posts.last.description }}.</span>
                                 </div>
                                 <div class="card-button">
@@ -172,6 +133,45 @@
                             </div>
                             <div class="image-wrapper">
                                 <img class="thumbnail" src="{{ site.posts.last.thumbnail }}">
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="col">
+                    {% if page.previous.url %}
+                        <div class="image card {{ page.previous.title | replace: ' ', '-' | remove: ',' | downcase }}">
+                            <hr class="divider">
+                            <div class="content">
+                                <div class="card-title">
+                                    <span class="subheading">Next</span>
+                                    <span class="title h4">{{ page.previous.description }}.</span>
+                                </div>
+                                <div class="card-button">
+                                    <a class="hidden" href="{{ page.previous.url  }}">
+                                        <!-- <span class="material-symbols-outlined icon">arrow_forward</span> -->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="image-wrapper">
+                                <img class="thumbnail" src="{{ page.previous.thumbnail }}">
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="image card {{ site.posts.first.title | replace: ' ', '-' | remove: ',' | downcase }}">
+                            <hr class="divider">
+                            <div class="content">
+                                <div class="card-title">
+                                    <span class="subheading">Next</span>
+                                    <span class="title h4">{{ site.posts.first.description }}.</span>
+                                </div>
+                                <div class="card-button">
+                                    <a class="hidden" href="{{ site.posts.first.url }}">
+                                        <!-- <span class="material-symbols-outlined icon">arrow_forward</span> -->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="image-wrapper">
+                                <img class="thumbnail" src="{{ site.posts.first.thumbnail }}">
                             </div>
                         </div>
                     {% endif %}

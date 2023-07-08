@@ -5,13 +5,17 @@ permalink: /about/
 description: I'm a creative developer based in San Francisco, California with six years of professional experience. Let’s create meaningful and memorable products.
 ---
 <section class="hero">
-    <div class="container">
-        <div class="page-title">
-            <h1 class="title display">A visionary for impactful experiences</h1>
-            <p class="subtitle">I'm a creative developer based in San Francisco, California with six years of professional experience. Let’s create meaningful and memorable products.</p>
+    <div class="row">
+        <div class="col">
+            <div class="page-title">
+                <h1 class="title display">A visionary for impactful experiences</h1>
+                <p class="subtitle">I'm a creative developer based in San Francisco, California with six years of professional experience. Let’s create meaningful and memorable products.</p>
+            </div>
         </div>
-        <div class="image-wrapper">
-            <img class="image" src="/assets/images/about/about-me-profile-image.jpg">
+        <div class="col">
+            <div class="image-wrapper">
+                <img class="image" src="/assets/images/about/about-aljon-4.jpg">
+            </div>
         </div>
     </div>
 </section>
@@ -184,6 +188,19 @@ description: I'm a creative developer based in San Francisco, California with si
                     </ul>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="row">
+        <div class="col">
+            <img src="/assets/images/about/about-aljon-1.jpg">
+        </div>
+        <div class="col">
+            <img src="/assets/images/about/about-aljon-2.jpg">
+        </div>
+        <div class="col">
+            <img src="/assets/images/about/about-aljon-3.jpg">
         </div>
     </div>
 </section>

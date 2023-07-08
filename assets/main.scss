@@ -1058,12 +1058,8 @@ footer.site-footer {
 /* About Page */
 body.about {
     section.hero {
-        flex-direction: row;
-        gap: $gap;
-
-        .image {
-            aspect-ratio: 4 / 3;
-            object-fit: cover;
+        .col:first-child {
+            align-self: flex-end;
         }
     }
 
