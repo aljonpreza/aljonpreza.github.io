@@ -3,15 +3,10 @@ layout: post
 title:  OrthoMasterClass
 description: Elevate your orthodontic business
 date:   2022-03-25 22:26:59 -1000
-categories: [Web Design, Social Media, Print, Video]
+categories: [Work]
 thumbnail: "/assets/images/orthomasterclass/orthomasterclass-landing-page.jpg"
-header-image: "/assets/images/orthomasterclass/orthomasterclass-landing-page.jpg"
-tags: [HTML/CSS, JavaScript, Adobe Creative Suite, WordPress, MailChimp, Meta Business, Final Cut Pro]
 heading: "An online learning platform for thousands of orthodontists nationwide."
 about: "Orthodontic education is evolving with new challenges arising in the digital age of orthodontics. Even orthodontists may have trouble adapting to current treatment methods. OrthoMasterClass, founded by Dr. Sean Holliday, aims to provide innovative learning opportunities for orthodontists to tackle these challenges. The online learning platform presents recommendations for clinical efficiency, business opportunities, and impactful patient experiences."
-type: Online Learning Platform
-role: [Web Designer, Graphic Designer, Digital Marketing]
-timeline: 2017 - 2023
 services: [UI Design, UX Design, Brand Identity, Logo Design, Branding Guidelines, Marketing Materials, Illustration, Photography, Video, Front-end Development, Back-end Development, Social Media, Email Marketing, Search Enginge Optimization, Search Engine Marketing]
 deliverables: [Brand, Website, Social Media, Marketing, Video]
 tools: [WordPress, Adobe Creative Suite, Figma, Meta Business, MailChimp, Google Analytics, Final Cut Pro]

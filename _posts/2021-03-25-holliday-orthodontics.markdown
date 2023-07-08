@@ -3,15 +3,10 @@ layout: post
 title:  Holliday Orthodontics
 description: Creating beautiful, confident smiles
 date:   2021-03-25 22:26:59 -1000
-categories: [Web Design, Social Media, Print, Video]
+categories: [Work]
 thumbnail: "/assets/images/holliday-orthodontics/holliday-ortho-landing-page.jpg"
-header-image: "/assets/images/holliday-orthodontics/holliday-ortho-branding.jpg"
-tags: [HTML/CSS, JavaScript, Adobe Creative Suite, WordPress, Meta Business, Final Cut Pro]
 about: "Holliday Orthodontics is a specialized dental clinic that focuses on providing orthodontic treatment to its patients. The clinic has a unique approach to treatment, tailored to each patient's needs while utilizing the latest technology and techniques to achieve the best possible results. Patients can expect personalized care and attention throughout their treatment journey, focusing on achieving a beautiful, confident smile."
 heading: "A top 1% Invisalign provider in North America."
-type: Orthodontic Office
-role: [Web Design, Graphic Design, Digital Marketing]
-timeline: 2017 - 2023
 services: [Brand Identity, Logo Design, Branding Guidelines, Marketing Materials, Illustration, Photography, Video, Front-end Development, Back-end Development, Social Media, Email Marketing, Search Enginge Optimization, Search Engine Marketing]
 deliverables: [Brand, Website, Social Media, Marketing]
 tools: [WordPress, Adobe Creative Suite, Figma, Meta Business, MailChimp, Google Analytics]
