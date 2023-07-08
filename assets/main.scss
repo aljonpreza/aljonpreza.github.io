@@ -1033,6 +1033,11 @@ footer.site-footer {
                 align-items: start;
             }
         }
+
+        .credit {
+            color: var(--subheading-color);
+            margin-top: 1rem;
+        }
     }
 
     @media (max-width: $tablet-size) {
