@@ -20,6 +20,7 @@ tools: [WordPress, Adobe Creative Suite, Figma, Meta Business, MailChimp, Google
 <img alt="OrthoMasterClass - Social Media 3" src="/assets/images/orthomasterclass/orthomasterclass-slide-decks.jpg">
 <img alt="OrthoMasterClass - Print" src="/assets/images/orthomasterclass/orthomasterclass-print.jpg">
 <img alt="OrthoMasterClass - Print 1" src="/assets/images/orthomasterclass/orthomasterclass-print-1.jpg">
+<img alt="OrthoMasterClass - Print 2" src="/assets/images/orthomasterclass/orthomasterclass-print-2.jpg">
 <script src="https://fast.wistia.com/embed/medias/qt9nba1rzx.jsonp" async></script>
 <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
 <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
