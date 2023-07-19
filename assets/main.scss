@@ -1243,24 +1243,7 @@ body.work {
                 margin-bottom: 0;
             }
 
-            img {
-                width: calc(50% - 1rem);
-                aspect-ratio: 4 / 3;
-                object-fit: cover;
-                object-position: 0;
-
-                &:nth-child(3n - 2) {
-                    aspect-ratio: 16 / 9;
-                    width: 100%;
-                }
-
-                @media (max-width: $tablet-size) {
-                    aspect-ratio: 16 / 9;
-                    width: 100%;
-                }
-            }
-
-            .wistia_responsive_padding {
+            img, .wistia_responsive_padding {
                 width: 100%;
             }
         }
