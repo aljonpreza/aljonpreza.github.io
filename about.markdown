@@ -9,7 +9,7 @@ description: I'm a creative developer based in San Francisco, California with si
         <div class="col">
             <div class="page-title">
                 <h1 class="title display">A visionary for impactful experiences</h1>
-                <p class="subtitle">I'm a creative developer based in San Francisco, California with six years of professional experience. Let’s create meaningful and memorable products.</p>
+                <p class="subtitle">I'm a designer and developer based in San Francisco, California with seven years of professional experience. Let’s create meaningful and memorable products.</p>
             </div>
         </div>
         <div class="col">
@@ -57,40 +57,34 @@ description: I'm a creative developer based in San Francisco, California with si
         </div>
         <div class="col experience-list lg-width">
             <span class="subheading">2022 – Present</span>
-            <span class="title h3">Web Project Manager</span>
-            <ul class="large-text">
-                <li>Built brands and WordPress web applications.</li>
-                <li>Executed landing pages, Google Analytics, and Meta Ads.</li>
-                <li>Launched digital marketing strategies.</li>
-                <li>Directed teams and collaborated with key stakeholders.</li>
-            </ul>
+            <span class="title h3">Lead Web and Graphic Designer</span>
+            <p class="large-text">
+                As the founding designer, I developed brand identity, web design, and marketing strategies, leading diverse marketing campaigns to boost web traffic and generate leads. With cross-functional teams, I effectively advocated for product goals and streamlined project and content management systems.
+            </p>
             <hr class="divider">
             <span class="subheading">2017 – 2022</span>
             <span class="title h3">Web and Graphic Designer</span>
-            <ul class="large-text">
-                <li>Initiated UX/UI strategies, research, prototypes, and testing.</li>
-                <li>Created branding and marketing collateral.</li>
-                <li>Spearheaded social media presence.</li>
-                <li>Customized WordPress CMS to automate page templates.</li>
-            </ul>
+            <p class="large-text">
+                Developed websites for diverse clients using WordPress, HTML, CSS, and JavaScript. Additionally, I created marketing collateral and contributed to in-person and online event organizations.
+            </p>
             <hr class="divider">
             <span class="subheading">2016 – 2017</span>
-            <span class="title h3">Web Developer Intern</span>
-            <ul class="large-text">
-                <li>Developed and maintained web applications.</li>
-                <li>Optimized web load times by reformatting digital assets.</li>
-                <li>Wrote Python scripts to automate the extraction of Excel files.</li>
-                <li>Standardized software documentation using best practices.</li>
-            </ul>
+            <span class="title h3">UI/UX Designer</span>
+            <p class="large-text">
+                Contributed to wireframes and the UI of a web application using React. Additionally, I played a key role in maintaining product consistency through detailed style guides and design documentation.
+            </p>
             <hr class="divider">
             <span class="subheading">2016 – 2017</span>
-            <span class="title h3">UX/UI Designer</span>
-            <ul class="large-text">
-                <li>Designed and developed a React web application.</li>
-                <li>Performed UX/UI wireframes and prototypes.</li>
-                <li>Composed web templates and other design elements.</li>
-                <li>Founded and maintained brand identity.</li>
-            </ul>
+            <span class="title h3">Web Development Intern</span>
+            <p class="large-text">    
+                Participated in building and maintaining multiple responsive websites using HTML, CSS, JavaScript, and Python. Additionally, I created and optimized website content and digital assets.
+            </p>
+            <hr class="divider">
+            <span class="subheading">2014 – 2014</span>
+            <span class="title h3">Graphic Designer</span>
+            <p class="large-text">    
+                Created cover designs and illustrations for the student newspaper, enhancing visual appeal and effectively conveying information to readers.
+            </p>
             <hr class="divider">
             <div class="button-list">
                 <a class="button full-width" href="/work">View Work</a>

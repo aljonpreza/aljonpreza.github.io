@@ -8,7 +8,7 @@ thumbnail: "/assets/images/holliday-orthodontics/holliday-ortho-landing-page.jpg
 about: "Holliday Orthodontics is a specialized dental clinic that focuses on providing orthodontic treatment to its patients. The clinic has a unique approach to treatment, tailored to each patient's needs while utilizing the latest technology and techniques to achieve the best possible results. Patients can expect personalized care and attention throughout their treatment journey, focusing on achieving a beautiful, confident smile."
 heading: "A top 1% Invisalign provider in North America."
 services: [Brand Identity, Logo Design, Branding Guidelines, Marketing Materials, Illustration, Photography, Video, Front-end Development, Back-end Development, Social Media, Email Marketing, Search Enginge Optimization, Search Engine Marketing]
-deliverables: [Brand, Website, Social Media, Marketing]
+deliverables: [Brand, Website, Social Media, Marketing, Video]
 tools: [WordPress, Adobe Creative Suite, Figma, Meta Business, MailChimp, Google Analytics]
 ---
 <img alt="Holliday Orthodontics - Landing Page" src="/assets/images/holliday-orthodontics/holliday-ortho-landing-page.jpg">
