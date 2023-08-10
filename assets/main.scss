@@ -3,9 +3,10 @@
 @import "minima";
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap');
 
-$heading-font: 'Space Grotesk', serif;
-$body-font: 'Inter', sans-serif;
+$heading-font: 'DM Sans', Helvetica, sans-serif;
+$body-font: 'DM Sans', Helvetica, sans-serif;
 $laptop-size: 1024px;
 $tablet-size: 768px;
 $mobile-size: 425px;
@@ -215,9 +216,9 @@ h6,
     display: block;
     font-family: $heading-font;
     color: var(--heading-color);
-    line-height: 1;
+    line-height: 1.125;
     margin-bottom: 1em;
-    font-weight: 400;
+    font-weight: 500;
 
     &.title {
         display: block;
@@ -391,7 +392,7 @@ section {
         
         .page-title {
             box-sizing: border-box;
-            max-width: 46rem;
+            max-width: 48rem;
             margin: 0;
             visibility: hidden;
             will-change: transform, opacity;
@@ -473,9 +474,10 @@ section {
 .subheading {
     color: var(--subheading-color);
     display: inline-block;
-    font-size: 1rem;
-    line-height: 1.5;
+    font-size: 1.125rem;
+    line-height: 1.15;
     margin-bottom: 0.5em;
+    font-weight: 300;
 }
 
 .icon-fill {
@@ -773,10 +775,12 @@ section {
     left: 0;
     width: initial;
     border-top: none;
-    border: none;
+    border-bottom: none;
     background: var(--background-color);
     padding: 0 $padding*2;
     transition: $transition;
+    display: flex;
+    justify-content: center;
 
     @media (max-width: $tablet-size) {
         padding: 0 $padding;
@@ -798,15 +802,24 @@ section {
     }
 }
 
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+    @media (max-width: $tablet-size) {
+        padding: 1.5rem 0;
+        flex-direction: column;
+    }
+}
+
 .nav-container {
     max-width: $max-width;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     box-sizing: border-box;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    border-bottom: $border-width solid rgba(0,0,0,0);
     transition: $transition;
 
     a.site-title, &:visited {
@@ -814,7 +827,7 @@ section {
         font-family: $heading-font;
         color: var(--heading-color);
         font-size: 1.563rem;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 1;
         transition: $transition;
         text-decoration: none;
@@ -852,11 +865,6 @@ section {
             margin-top: 1.5rem;
             align-self:baseline;
         }
-    }
-
-    @media (max-width: $tablet-size) {
-        padding: 1.5rem 0;
-        flex-direction: column;
     }
 }
 
@@ -1012,6 +1020,9 @@ footer.site-footer {
     }
 
     .footer {
+        max-width: $max-width;
+        width: 100%;
+
         .title {
             margin: 0;
         }
@@ -1172,12 +1183,11 @@ body.work {
         flex: 1;
 
         .list-title {
-            font-family: $heading-font;
             line-height: 1;
-            font-size: 1.125rem;
-            color: var(--heading-color);
+            font-size: 1rem;
+            color: var(--subheading-color);
             margin-bottom: 1rem;
-            font-weight: 500;
+            font-weight: 400;
 
             .material-symbols-outlined {
                 margin-right: 0.25rem;

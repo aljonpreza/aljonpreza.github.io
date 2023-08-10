@@ -7,7 +7,7 @@ description: Work, projects, and explorations.
 <section class="hero">
     <div class="container">
         <div class="page-title">
-            <h1 class="title display">Work, projects, and explorations</h1>
+            <h1 class="title display">{{ page.description }}</h1>
         </div>
     </div>
 </section>

@@ -8,7 +8,7 @@ description: I'm a creative developer based in San Francisco, California with si
     <div class="row">
         <div class="col">
             <div class="page-title">
-                <h1 class="title display">A visionary for impactful experiences</h1>
+                <h1 class="title display">A visionary for impactful experiences.</h1>
                 <p class="subtitle">I'm a designer and developer based in San Francisco, California with seven years of professional experience. Let’s create meaningful and memorable products.</p>
             </div>
         </div>
@@ -182,19 +182,6 @@ description: I'm a creative developer based in San Francisco, California with si
                     </ul>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="row">
-        <div class="col">
-            <img src="/assets/images/about/about-aljon-1.jpg">
-        </div>
-        <div class="col">
-            <img src="/assets/images/about/about-aljon-2.jpg">
-        </div>
-        <div class="col">
-            <img src="/assets/images/about/about-aljon-3.jpg">
         </div>
     </div>
 </section>

@@ -22,7 +22,7 @@ title: Aljon Preza
 email: aljonpreza@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A designer and developer pursuing market-leading and strategic solutions.
-baseurl: "main" # the subpath of your site, e.g. /main, leave empty during production
+baseurl: "" # the subpath of your site, e.g. /main, leave empty during production
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
